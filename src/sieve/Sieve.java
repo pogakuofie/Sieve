@@ -19,6 +19,7 @@ public class Sieve {
      */
     public static void main(String[] args) {
 
+        System.out.println("The Sieve of Eratosthenes");        
         Set aSet = new HashSet<>();
         int i, j, limit, halfLimit;
 
