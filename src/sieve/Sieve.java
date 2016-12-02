@@ -21,10 +21,11 @@ public class Sieve {
 
         System.out.println("The Sieve of Eratosthenes");        
         Set aSet = new HashSet<>();
-        int i, j, limit, halfLimit;
+        int i, j, limit;
+        double halfLimit;
 
         limit = 10000;
-        halfLimit = limit / 2;
+        halfLimit = Math.sqrt(limit);
         for (i = 0; i < limit; i++) {
             aSet.add(i);
         }
